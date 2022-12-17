@@ -1,0 +1,18 @@
+#n-2 {
+    color: #00f;
+    font-size: 36px;
+}
+
+#n-4 {
+    background-color: #5f5;
+    font-weight: bold;
+}
+
+.odd {
+    background-color: #ffaaaa;
+    font-style: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.large {
+    font-size: 24px;
+}
