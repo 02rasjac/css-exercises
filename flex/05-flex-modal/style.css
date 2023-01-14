@@ -16,6 +16,8 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -30,9 +32,11 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin-right: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto
 }
 
 .close-button {
@@ -46,6 +50,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.text {
+  margin: 8px 0;
 }
 
 button {
